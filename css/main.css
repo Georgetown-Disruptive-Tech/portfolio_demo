@@ -1,13 +1,12 @@
 html {
     overflow-x: hidden;
-    background: #dbf5d7;
     -webkit-font-smoothing: antialiased;
 }
 
 body {
+    display: block;
     position: relative;
     background: #dbf5d7;
-    box-shadow: 0 0 2px rgba(0, 0, 0, 0.06);
     color: #5f705c;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 16px;
@@ -26,15 +25,29 @@ h1, h2, h3, h4, h5, h6 {
 h1 {
     color: darkslategray;
     text-align: center;
+    
 }
 
 h2 {
     margin-top: 1.3em;
+    text-align: left;
+    color: hotpink;
 }
 
 h3 {
+    margin-top: .5em;
     text-align: left;
-    
+    font-weight: 400;
+    color: dimgrey;
+}
+
+h4 {
+    margin-top: 80px;
+    color: darkslategrey;
+    font-size: 18;
+    line-height: 2;
+    border: 3px solid gray;
+    padding: 40px;
 }
 
 figcaption {
@@ -57,4 +70,23 @@ img {
     display: block;
     margin: 1.3em auto;
     max-width: 95%;
+}
+
+.boxed {
+    margin: auto;
+    width: 50%;    
+    border: 10px solid gray;
+    padding: 40px;
+    margin-bottom: 30px;
+}
+
+.next_page {
+    color: hotpink;
+    font-weight: 1200;
+    text-align: center;
+    width: 50%;
+    display: block;
+    border: 2px solid gray;
+    padding: 10px;
+    border-radius: 4px;
 }
